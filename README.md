@@ -1,36 +1,40 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 📈 Signalist – AI-Powered Stock Tracker
 
-## Getting Started
+Live demo: _[your-live-url.com if any]_
 
-First, run the development server:
+A modern, real-time stock-market platform built for developers and traders.  
+Track live prices, set alerts, explore deep company insights, and manage custom watchlists—all powered by event-driven workflows, AI summaries, and sentiment analytics.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🚀 Key Features
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **Real-Time Dashboard:** View interactive line and candlestick charts with historical data, filter by industry, performance or market-cap.  
+- **Smart Search:** Quickly find the best stocks with an intelligent, fast and accurate search system.  
+- **Personalized Watchlists & Alerts:** Create custom watchlists, set price/volume alerts and receive instant notifications.  
+- **In-Depth Company Insights:** Access PE ratio, EPS, revenues, filings, news, analyst ratings and sentiment scores to make informed decisions.  
+- **Automated Event Workflows:** Powered by Inngest — handle price updates, alert scheduling, AI-driven digests and more.  
+- **AI-Powered Notifications & Summaries:** Receive personalized daily digests, earnings reports and market summaries.  
+- **Custom Notifications:** Fine-tune alerts based on your own watchlists and preferences.  
+- **Business & Trading Analytics:** View user behaviour, trading trends and engagement metrics for smarter decisions.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## 🛠 Tech Stack
 
-To learn more about Next.js, take a look at the following resources:
+| Area                  | Technologies                              |
+|------------------------|-------------------------------------------|
+| Frontend               | Next.js · Shadcn · React · Typescript     |
+| Authentication & Auth  | Better Auth |
+| Data & Realtime        | Finnhub API · MongoDB · WebSockets       |
+| Workflows & Automation | Inngest · Serverless Functions            |
+| DevOps & Hosting       | Docker · CI/CD · VPS · NGINX · SSL        |
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## ✅ Installation & Quick Start
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+1. Clone the repo  
+   ```bash
+   git clone https://github.com/shokhtalat/signalist_stock-tracker_app.git
+   cd signalist_stock-tracker_app
