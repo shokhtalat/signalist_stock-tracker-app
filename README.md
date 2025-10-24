@@ -38,3 +38,36 @@ Track live prices, set alerts, explore deep company insights, and manage custom 
    ```bash
    git clone https://github.com/shokhtalat/signalist_stock-tracker_app.git
    cd signalist_stock-tracker_app
+
+2.Install dependencies
+   ```bash
+   pnpm install   # or npm install
+   ```
+3.Set environment variables by copying .env.example to .env and filling out the keys:
+   ```bash
+   NEXT_PUBLIC_API_URL=…
+   FINNHUB_API_KEY=…
+   MONGODB_URI=…
+   BETTER_AUTH_SECRET=…
+   ```
+
+4.Run the development server
+   ```bash
+   pnpm dev   # or npm run dev
+   ```
+
+5.Build and preview production version
+
+```bash
+   pnpm build
+   pnpm preview
+```
+🚦 Deployment Notes
+
+Use CI/CD tools to automate linting, testing and deployment.
+
+Use NGINX as a reverse-proxy on your VPS with HTTPS (Certbot) for secure access.
+
+Host background/worker tasks via Inngest and message queues for alerts and summaries.
+
+Use environment variables securely and ensure database/API keys are protected.
